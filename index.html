@@ -139,7 +139,8 @@
         }
 
         hr {
-            margin: 48px 0px;
+            margin: 24px 0px;
+            margin-bottom: 48px;
             width: 40%;
             opacity: 0.3
         }
@@ -171,6 +172,71 @@
             margin: 20px 0px;
             padding: 0px 22px;
         }
+
+        .text {
+            padding: 0px;
+            margin: 0px;
+            margin-top: 42px;
+            font-family: 'Montserrat Alternates', sans-serif;
+            letter-spacing: 23px;
+            font-size: 48px;
+            color: #2F0B11;
+        }
+
+        .text::before,
+        .text::after {
+            content: 'ASYNC';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .text::before {
+            color: #FF5252;
+            animation: glitch-effect 3s infinite;
+        }
+
+        .text::after {
+            color: #0AABFF;
+            animation: glitch-effect 2s infinite;
+        }
+
+        .middle {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        @keyframes glitch-effect {
+            0% {
+                left: -2px;
+                top: -2px;
+            }
+
+            25% {
+                left: 2px;
+                top: 0px;
+            }
+
+            50% {
+                left: -1px;
+                top: 2px;
+            }
+
+            75% {
+                left: 1px;
+                top: -1px;
+            }
+
+            100% {
+                left: -2px;
+                top: -2px;
+            }
+        }
     </style>
 </head>
 
@@ -189,9 +255,15 @@
                     fill="#2B2B2B" />
             </svg>
         </div>
-        <h1>
-            ASYNC
-        </h1>
+        <!--
+            <h1>ASYNC</h1>
+        -->
+        <div>
+            <div class="text middle">
+                ASYNC
+              </div>
+        </div>
+
         <hr size=1>
         <h4>
             <b>Promis</b>, dès qu'on a le temps, <br>
