@@ -6,20 +6,4 @@
     "sha256_cert_fingerprints":
     ["41:0E:9D:CA:02:BF:91:63:A7:B1:99:CE:09:8F:60:9F:D8:7B:56:3F:44:36:9A:B5:E3:0A:8B:24:9D:5A:C9:14"]
   }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "web",
-    "site": "https://async-agency.com"
-  }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.asyncagency.annecypaysages",
-    "sha256_cert_fingerprints":
-    ["41:0E:9D:CA:02:BF:91:63:A7:B1:99:CE:09:8F:60:9F:D8:7B:56:3F:44:36:9A:B5:E3:0A:8B:24:9D:5A:C9:14"]
-  }
 }]
