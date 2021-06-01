@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.asyncagency.instantapp",
+    "package_name": "com.asyncagency.annecypaysages",
     "sha256_cert_fingerprints":
     ["8C:DE:8C:8E:A0:E1:4E:53:93:28:4A:52:2E:EC:6B:1E:19:6A:E8:E1:96:6F:82:DE:2B:FC:A0:4A:31:BB:9E:B1"]
   }
