@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["2KSK6YV8G7.com.async.AnnecyPaysages"],
+        "components" : [
+          {
+            "/" : "/*"
+          }
+        ]
+      }
+    ]
+  },
+  "appclips": {
+    "apps" : ["2KSK6YV8G7.com.async.AnnecyPaysages.Clip"]
+  }
+}
